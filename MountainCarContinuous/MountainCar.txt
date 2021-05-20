@@ -1,0 +1,17 @@
+<if>;
+
+<if> -> if <cond> then <act> else <act>;
+<cond> -> <t0> + <t1> > <var0>;
+
+<act> -> <t0> + <t1> + <var1>;
+
+<t0> -> <var2>*peek(<input0>);
+<t1> -> <var3>*peek(<input1>);
+
+<var0> -> c0;
+<var1> -> c1;
+<var2> -> c2;
+<var3> -> c3;
+
+<input0> -> h0;
+<input1> -> h1;

@@ -1,0 +1,52 @@
+<if1>;
+
+<if1> -> if <cond1> then <if2> else <if2>;
+<cond1> -> <input8> == <const1>;
+
+<if2> -> if <cond2> then <ret> else <ret>;
+<cond2> -> <input13> == <const1>;
+
+<ret> -> <o1>, <o2>, <o3>, <o4>;
+
+<o1> -> <var0>*<input0> + <var1>*<input1> + <var2>*<input4> + <var3>*<input5> + <var4>;
+<o2> -> <var5>*<input0> + <var6>*<input1> + <var7>*<input6> + <var8>*<input7> + <var9>;
+<o3> -> <var10>*<input0> + <var11>*<input1> + <var12>*<input9> + <var13>*<input10> + <var14>;
+<o4> -> <var15>*<input0> + <var16>*<input1> + <var17>*<input11> + <var18>*<input12> + <var19>;
+
+<var0> -> c0;
+<var1> -> c1;
+<var2> -> c2;
+<var3> -> c3;
+<var4> -> c4;
+<var5> -> c5;
+<var6> -> c6;
+<var7> -> c7;
+<var8> -> c8;
+<var9> -> c9;
+<var10> -> c10;
+<var11> -> c11;
+<var12> -> c12;
+<var13> -> c13;
+<var14> -> c14;
+<var15> -> c15;
+<var16> -> c16;
+<var17> -> c17;
+<var18> -> c18;
+<var19> -> c19;
+
+<input0> -> h1;
+<input1> -> h1;
+<input2> -> h2;
+<input3> -> h3;
+<input4> -> h4;
+<input5> -> h5;
+<input6> -> h6;
+<input7> -> h7;
+<input8> -> h8;
+<input9> -> h9;
+<input10> -> h10;
+<input11> -> h11;
+<input12> -> h12;
+<input13> -> h13;
+
+<const1> -> 1;
